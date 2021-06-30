@@ -8,6 +8,11 @@
 int a[]={1, 4, 6, 8};
 #define BLINK_GPIO 2
 int n;
+
+/*
+Pro code edit to shoecase "git diff"
+*/
+
 void app_main(void)
 {
     gpio_set_direction(BLINK_GPIO,GPIO_MODE_OUTPUT);
